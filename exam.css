@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Lancelot&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+.frame {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .frame .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 1274px;
+    position: relative;
+  }
+  
+  .frame .symbol-of {
+    position: absolute;
+    width: 455px;
+    height: 798px;
+    top: 161px;
+    left: 958px;
+  }
+  
+  .frame .image {
+    position: absolute;
+    width: 455px;
+    height: 358px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .frame .a-symbol {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    position: absolute;
+    top: 388px;
+    left: 29px;
+  }
+  
+  .frame .text-wrapper {
+    position: relative;
+    width: 378px;
+    height: 120px;
+    margin-top: -1.00px;
+    font-family: 'Lancelot-Regular';
+    font-weight: 400;
+    color: #000000;
+    font-size: 49px;
+    letter-spacing: 0;
+    line-height: 65px;
+  }
+  
+  .frame .vector {
+    position: relative;
+    width: 385px;
+    height: 1px;
+    object-fit: cover;
+  }
+  
+  .frame .as-part-of-the {
+    position: relative;
+    width: 394px;
+    height: 250px;
+    font-family: 'Lato';
+    font-weight: 300;
+    color: #3b3b3b;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .peace-dignity {
+    position: absolute;
+    width: 928px;
+    height: 923px;
+    top: 188px;
+    left: 30px;
+  }
+  
+  .frame .peace {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    position: absolute;
+    top: 0;
+    left: 25px;
+  }
+  
+  .frame .p {
+    position: relative;
+    width: 850px;
+    height: 129px;
+    margin-top: -1.00px;
+    font-family: 'Lancelot-Regular';
+    font-weight: 400;
+    color: #000000;
+    font-size: 61px;
+    letter-spacing: 0;
+    line-height: 65px;
+  }
+  
+  .frame .as-part-of-the-2 {
+    position: relative;
+    width: 857px;
+    height: 79px;
+    font-family: 'Lato';
+    font-weight: 300;
+    color: #3b3b3b;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+  
+  .frame .span {
+    font-weight: 300;
+  }
+  
+  .frame .text-wrapper-2 {
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 18px;
+  }
+  
+  .frame .img {
+    position: relative;
+    width: 850px;
+    height: 1px;
+    margin-bottom: -0.50px;
+    object-fit: cover;
+  }
+  
+  .frame .image2 {
+    position: absolute;
+    width: 928px;
+    height: 590px;
+    top: 333px;
+    left: 0;
+  }
+  
+  .frame .heading {
+    position: absolute;
+    width: 1450px;
+    height: 106px;
+    top: 55px;
+    left: 0;
+  }
+  
+  .frame .overlap {
+    position: relative;
+    top: -1px;
+    width: 1440px;
+    height: 107px;
+  }
+  
+  .frame .overlap-group {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1440px;
+    height: 107px;
+  }
+  
+  .frame .vector-2 {
+    position: absolute;
+    width: 1440px;
+    height: 2px;
+    top: 0;
+    left: 0;
+  }
+  
+  .frame .vector-3 {
+    position: absolute;
+    width: 1440px;
+    height: 2px;
+    top: 105px;
+    left: 0;
+  }
+  
+  .frame .text-wrapper-3 {
+    position: absolute;
+    width: 128px;
+    height: 106px;
+    top: 37px;
+    left: 28px;
+    font-family: 'Lato';
+    font-weight: 300;
+    color: #3b3b3b;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .text-wrapper-4 {
+    position: absolute;
+    width: 137px;
+    height: 106px;
+    top: 37px;
+    left: 1094px;
+    font-family: 'Lato';
+    font-weight: 300;
+    color: #3b3b3b;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .subscribe {
+    position: absolute;
+    width: 182px;
+    height: 103px;
+    top: 37px;
+    left: 1231px;
+    font-family: 'Lato';
+    font-weight: 300;
+    color: #3b3b3b;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .vector-4 {
+    position: absolute;
+    width: 1px;
+    height: 106px;
+    top: 1px;
+    left: 156px;
+  }
+  
+  .frame .vector-5 {
+    position: absolute;
+    width: 1px;
+    height: 105px;
+    top: 2px;
+    left: 356px;
+  }
+  
+  .frame .vector-6 {
+    position: absolute;
+    width: 1px;
+    height: 104px;
+    top: 2px;
+    left: 1098px;
+  }
+  
+  .frame .vector-7 {
+    position: absolute;
+    width: 1px;
+    height: 104px;
+    top: 2px;
+    left: 1230px;
+  }
+  
+  .frame .text-wrapper-5 {
+    position: absolute;
+    width: 200px;
+    height: 106px;
+    top: 37px;
+    left: 156px;
+    font-family: 'Lato';
+    font-weight: 300;
+    color: #3b3b3b;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .national-daily-news {
+    position: absolute;
+    height: 86px;
+    top: 12px;
+    left: 394px;
+    font-family: "Lato";
+    font-weight: 400;
+    color: #3b3b3b;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 86px;
+    white-space: nowrap;
+  }
+  
